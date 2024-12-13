@@ -6,23 +6,22 @@ import ListPicker from './ListPicker.jsx';
 import DoubleDice from './DoubleDice.jsx';
 import ColorList from './ColorList.jsx';
 import Slots from './Slots.jsx';
+import ShoppingList from './ShoppingList.jsx';
+
+const data = [
+  {item: 'eggs', quantity: 12, completed: true},
+  {item: 'milk', quantity: 1, completed: false},
+  {item: 'apples', quantity: 4, completed: true},
+  {item: 'bananas', quantity: 7, completed: false}
+]
 
 function App() {
   return <div>
-    {/* <Greeter person='Sadie' from='Candace'/> */}
-    {/* <Die numSides={20} />
-    <Die/>
-    <Greeter/>
-     */}
-    {/* <ListPicker values={[1, 2, 3]} />
-    <ListPicker values={['a', 'b', 'c']} /> */}
-    <DoubleDice />
-    <DoubleDice />
-    <DoubleDice />
-
-    <ColorList colors={['red', 'pink', 'lavender', 'blue']}/>
+    {/* <ColorList colors={['red', 'pink', 'lavender', 'blue']}/>
     <Slots val1='1' val2='1' val3='1'/>
-    <Slots val1='1' val2='2' val3='1'/>
+    <Slots val1='1' val2='2' val3='1'/> */}
+
+      <ShoppingList items={data}/>
   </div>
 }
 
