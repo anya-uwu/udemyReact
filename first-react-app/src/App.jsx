@@ -9,6 +9,9 @@ import Slots from './Slots.jsx';
 import ShoppingList from './ShoppingList.jsx';
 import PropertyList from './PropertyList.jsx';
 import Clicker from './Clicker.jsx';
+import Counter from './Counter.jsx';
+import Toggler from './Toggler.jsx';
+import ColorGrid from './ColorGrid.jsx';
 
 const data = [
   { item: 'eggs', quantity: 12, completed: true },
@@ -34,7 +37,10 @@ function App() {
 
     {/* <ShoppingList items={data}/> */}
     {/* <PropertyList items={properties} /> */}
-    <Clicker/>
+    {/* <Clicker/> */}
+    <Counter/>
+    <Toggler/>
+    <ColorGrid/>
   </div>
 }
 
