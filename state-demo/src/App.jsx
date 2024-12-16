@@ -16,8 +16,8 @@ function App() {
     <ScoreKeeper numPlayers={10} target={3} /> */}
     {/* <UsernameForm/> */}
     {/* <SignupForm/> */}
-    <ShoppingList/>
-    
+    {/* <ShoppingList/> */}
+    <Counter/>
     </>
   )
 }
