@@ -2,6 +2,7 @@ import { useState } from 'react'
 import CSSBaseline from '@mui/material/CssBaseline'
 import './App.css'
 import TodoList from './TodoList'
+import Navbar from './Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
     <CSSBaseline/>
-    <h1>Todos</h1>
+    <Navbar/>
     <TodoList/>
     </>
   )
