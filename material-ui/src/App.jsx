@@ -1,11 +1,14 @@
 import './App.css'
 import Button from '@mui/material/button'
+import RatingDemo from './RatingDemo'
 
 function App() {
   return (
     <>
-      <Button variant="contained">Contained</Button>
+      <Button color='success' onClick={() => alert('hi')} variant="contained">Contained</Button>
+      <RatingDemo/>
     </>
+    
   )
 }
 
